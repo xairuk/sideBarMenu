@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A69BC17C1D2B65C90003664A /* BackTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69BC17B1D2B65C90003664A /* BackTableVC.swift */; };
 		CF182BA21D25DCAF00C14E54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF182BA11D25DCAF00C14E54 /* AppDelegate.swift */; };
 		CF182BA41D25DCAF00C14E54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF182BA31D25DCAF00C14E54 /* ViewController.swift */; };
 		CF182BA71D25DCAF00C14E54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF182BA51D25DCAF00C14E54 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		CF182BAC1D25DCAF00C14E54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF182BAA1D25DCAF00C14E54 /* LaunchScreen.storyboard */; };
 		CF182BB71D25DCAF00C14E54 /* slideMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF182BB61D25DCAF00C14E54 /* slideMenuTests.swift */; };
 		CF182BC21D25DCAF00C14E54 /* slideMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF182BC11D25DCAF00C14E54 /* slideMenuUITests.swift */; };
+		CF6051AA1D2ADD1C00A8C3B3 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6051A91D2ADD1C00A8C3B3 /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A69BC17B1D2B65C90003664A /* BackTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackTableVC.swift; path = ../BackTableVC.swift; sourceTree = "<group>"; };
 		CF182B9E1D25DCAF00C14E54 /* slideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF182BA11D25DCAF00C14E54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF182BA31D25DCAF00C14E54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		CF182BBD1D25DCAF00C14E54 /* slideMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = slideMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF182BC11D25DCAF00C14E54 /* slideMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slideMenuUITests.swift; sourceTree = "<group>"; };
 		CF182BC31D25DCAF00C14E54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF6051A71D2ADD1C00A8C3B3 /* slideMenu-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "slideMenu-Bridging-Header.h"; sourceTree = "<group>"; };
+		CF6051A81D2ADD1C00A8C3B3 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		CF6051A91D2ADD1C00A8C3B3 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +106,11 @@
 				CF182BA11D25DCAF00C14E54 /* AppDelegate.swift */,
 				CF182BA31D25DCAF00C14E54 /* ViewController.swift */,
 				CF182BA51D25DCAF00C14E54 /* Main.storyboard */,
+				A69BC17B1D2B65C90003664A /* BackTableVC.swift */,
 				CF182BA81D25DCAF00C14E54 /* Assets.xcassets */,
 				CF182BAA1D25DCAF00C14E54 /* LaunchScreen.storyboard */,
 				CF182BAD1D25DCAF00C14E54 /* Info.plist */,
+				CF6051A61D2ADCC400A8C3B3 /* Supporting Files */,
 			);
 			path = slideMenu;
 			sourceTree = "<group>";
@@ -123,6 +131,16 @@
 				CF182BC31D25DCAF00C14E54 /* Info.plist */,
 			);
 			path = slideMenuUITests;
+			sourceTree = "<group>";
+		};
+		CF6051A61D2ADCC400A8C3B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF6051A81D2ADD1C00A8C3B3 /* SWRevealViewController.h */,
+				CF6051A91D2ADD1C00A8C3B3 /* SWRevealViewController.m */,
+				CF6051A71D2ADD1C00A8C3B3 /* slideMenu-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +276,8 @@
 			files = (
 				CF182BA41D25DCAF00C14E54 /* ViewController.swift in Sources */,
 				CF182BA21D25DCAF00C14E54 /* AppDelegate.swift in Sources */,
+				A69BC17C1D2B65C90003664A /* BackTableVC.swift in Sources */,
+				CF6051AA1D2ADD1C00A8C3B3 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,10 +417,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = slideMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = niutec.net.slideMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "slideMenu/slideMenu-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -408,10 +431,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = slideMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = niutec.net.slideMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "slideMenu/slideMenu-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -482,6 +507,7 @@
 				CF182BC81D25DCAF00C14E54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF182BC91D25DCAF00C14E54 /* Build configuration list for PBXNativeTarget "slideMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +516,7 @@
 				CF182BCB1D25DCAF00C14E54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF182BCC1D25DCAF00C14E54 /* Build configuration list for PBXNativeTarget "slideMenuUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +525,7 @@
 				CF182BCE1D25DCAF00C14E54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
