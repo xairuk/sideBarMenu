@@ -10,7 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var Label: UILabel!
     @IBOutlet weak var Open: UIBarButtonItem!
+    
+    var varView = Int()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,6 +23,13 @@ class ViewController: UIViewController {
         Open.action = Selector("revealToggle:")
         
         self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+        
+        if (varView == 0){
+            Label.text = "Home"
+        }
+        else {
+            Label.text = "Pagina"
+        }
         
     }
 

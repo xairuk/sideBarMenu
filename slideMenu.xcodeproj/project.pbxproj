@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A69BC17C1D2B65C90003664A /* BackTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69BC17B1D2B65C90003664A /* BackTableVC.swift */; };
+		A69BC1801D2CB8F40003664A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69BC17F1D2CB8F40003664A /* Home.swift */; };
+		A69BC1821D30B95A0003664A /* Referencia.png in Resources */ = {isa = PBXBuildFile; fileRef = A69BC1811D30B95A0003664A /* Referencia.png */; };
 		CF182BA21D25DCAF00C14E54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF182BA11D25DCAF00C14E54 /* AppDelegate.swift */; };
 		CF182BA41D25DCAF00C14E54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF182BA31D25DCAF00C14E54 /* ViewController.swift */; };
 		CF182BA71D25DCAF00C14E54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF182BA51D25DCAF00C14E54 /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		A69BC17B1D2B65C90003664A /* BackTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackTableVC.swift; path = ../BackTableVC.swift; sourceTree = "<group>"; };
+		A69BC17F1D2CB8F40003664A /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		A69BC1811D30B95A0003664A /* Referencia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Referencia.png; sourceTree = "<group>"; };
 		CF182B9E1D25DCAF00C14E54 /* slideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF182BA11D25DCAF00C14E54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF182BA31D25DCAF00C14E54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +84,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A69BC1831D30B9760003664A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		CF182B951D25DCAF00C14E54 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +98,7 @@
 				CF182BB51D25DCAF00C14E54 /* slideMenuTests */,
 				CF182BC01D25DCAF00C14E54 /* slideMenuUITests */,
 				CF182B9F1D25DCAF00C14E54 /* Products */,
+				A69BC1811D30B95A0003664A /* Referencia.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +118,7 @@
 				CF182BA11D25DCAF00C14E54 /* AppDelegate.swift */,
 				CF182BA31D25DCAF00C14E54 /* ViewController.swift */,
 				CF182BA51D25DCAF00C14E54 /* Main.storyboard */,
+				A69BC17F1D2CB8F40003664A /* Home.swift */,
 				A69BC17B1D2B65C90003664A /* BackTableVC.swift */,
 				CF182BA81D25DCAF00C14E54 /* Assets.xcassets */,
 				CF182BAA1D25DCAF00C14E54 /* LaunchScreen.storyboard */,
@@ -136,6 +149,7 @@
 		CF6051A61D2ADCC400A8C3B3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A69BC1831D30B9760003664A /* Images */,
 				CF6051A81D2ADD1C00A8C3B3 /* SWRevealViewController.h */,
 				CF6051A91D2ADD1C00A8C3B3 /* SWRevealViewController.m */,
 				CF6051A71D2ADD1C00A8C3B3 /* slideMenu-Bridging-Header.h */,
@@ -248,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF182BAC1D25DCAF00C14E54 /* LaunchScreen.storyboard in Resources */,
+				A69BC1821D30B95A0003664A /* Referencia.png in Resources */,
 				CF182BA91D25DCAF00C14E54 /* Assets.xcassets in Resources */,
 				CF182BA71D25DCAF00C14E54 /* Main.storyboard in Resources */,
 			);
@@ -276,6 +291,7 @@
 			files = (
 				CF182BA41D25DCAF00C14E54 /* ViewController.swift in Sources */,
 				CF182BA21D25DCAF00C14E54 /* AppDelegate.swift in Sources */,
+				A69BC1801D2CB8F40003664A /* Home.swift in Sources */,
 				A69BC17C1D2B65C90003664A /* BackTableVC.swift in Sources */,
 				CF6051AA1D2ADD1C00A8C3B3 /* SWRevealViewController.m in Sources */,
 			);

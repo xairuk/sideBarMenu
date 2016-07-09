@@ -13,7 +13,7 @@ class BackTableVC: UITableViewController {
     var TableArray = [String]()
     
     override func viewDidLoad() {
-        TableArray = ["Promos","Marcas","Mis Marcas","Cercano a mi","Favoritos","Esta app"]
+        TableArray = ["Home ","Marcas","Beacons","Esta app"]
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -21,10 +21,13 @@ class BackTableVC: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as UITableViewCell
+        var cell = tableView.dequeueReusableCellWithIdentifier(TableArray[indexPath.row], forIndexPath: indexPath) as UITableViewCell
         
         cell.textLabel?.text = TableArray [indexPath.row]
         
         return cell
     }
+    
+    
+    
 }
